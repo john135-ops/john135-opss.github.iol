@@ -1,0 +1,68 @@
+body{
+    background-color: #222;
+    margin: 30px;
+    padding:50px ;
+}
+body main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+body main img{
+    width: 300px;
+    border-radius: 10px;
+}
+body main p{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+body main input,body main button{
+    border: thin solid blueviolet;
+    background: transparent;
+    padding: 9px;
+    color: blueviolet;
+    outline: transparent;
+}
+body main button{
+    margin: 484px 0 0 137px;
+    position: absolute;
+    transition: all ease 1.7s;
+}
+body main button:hover{
+    border: thin solid transparent;
+    background: blueviolet;
+    color: white;
+}
+body main dialog{
+    width: 100%;
+    background: #333333;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: fixed;
+    display: none;
+}
+body main dialog p{
+    font-size: large;
+    color: #999999;
+    text-align: left;
+    margin-left: 50px;
+}
+body main button#Conf{
+    position: unset;
+    margin: 5px 50px 20px 0;
+    width: max-content;
+    text-align: right;
+}
+h1{
+    color: aliceblue;
+}
+.child{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
